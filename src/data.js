@@ -1,7 +1,7 @@
 /* ---------- content: edit these ---------- */
 export const PROFILE = { photo:'/Images/avatar.png', name:'Tanmoy Chakraborty', email:'tanmoyc834@gmail.com', github:'https://github.com/Tanmoycode99', linkedin:'https://www.linkedin.com/in/tanmoy-chakraborty-78708b1b3?utm_source=share_via&utm_content=profile&utm_medium=member_ios', phone: '+91-8910133006'};
 import nirmanMitra from './Images/nirman-mitra.jpeg';
-import sambandh from './Images/sambandh+.jpeg';
+import Sambandh from './Images/Sambandh.jpeg';
 import Shreemati from './Images/Shreemati.jpeg';
 
 export const STACK = [
@@ -46,7 +46,7 @@ export const PROJECTS = [
     t: 'Hiedelberg Sambandh+',
     d: 'Native Android app built with Jetpack Compose.',
     tags: ['Kotlin', 'Compose', 'MVVM'],
-    logo: sambandh,
+    logo: Sambandh,
     play: 'https://play.google.com/store/apps/details?id=com.sambandh.plus&pcampaignid=web_share',    // Android only, so no apple field
   },
   {
