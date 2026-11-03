@@ -2,7 +2,7 @@
 export const PROFILE = { photo:'/Images/avatar.png', name:'Tanmoy Chakraborty', email:'tanmoyc834@gmail.com', github:'https://github.com/Tanmoycode99', linkedin:'https://www.linkedin.com/in/tanmoy-chakraborty-78708b1b3?utm_source=share_via&utm_content=profile&utm_medium=member_ios', phone: '+91-8910133006'};
 import nirmanMitra from './Images/nirman-mitra.jpeg';
 import sambandh from './Images/sambandh+.jpeg';
-import Shreemati from './Images/Shreemti.jpeg';
+import Shreemati from './Images/Shreemati.jpeg';
 
 export const STACK = [
   { t:'Mobile', d:'Native first, cross-platform when it pays off.', span:'s4 hl', tags:['Kotlin','Jetpack Compose','Coroutines & Flow','Room','Hilt','React Native','iOS (Swift)'] },
