@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { PROFILE } from './data';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
@@ -21,6 +22,7 @@ export default function App() {
         /><Projects /><Experience /><Contact />
       </main>
       <footer>© {new Date().getFullYear()} {PROFILE.name}. No Copyrights</footer>
+      <Analytics />
     </>
   );
 }
